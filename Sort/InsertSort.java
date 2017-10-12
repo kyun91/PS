@@ -23,7 +23,7 @@ public class InsertSort {
 	
 	
 	public static void main(String args[]){
-		SelectionSort insert = new SelectionSort();
+		InsertSort insert = new InsertSort();
 		   int data[] = {4,6,1,3,5,2};
 		   
 		   insert.sort(data);
