@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Scanner;
 /*
- * HashMap 클래스는 key, value 값의 한싸으로 묶어서 관리한다.
+ * HashMap 클래스는 key, value 값의 한쌍으로 묶어서 관리한다.
  * key의 중복은 허용하지 않지만 value의 중복은 허용한다.
  * 
  *  HashMap Method
