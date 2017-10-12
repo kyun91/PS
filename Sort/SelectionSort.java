@@ -1,5 +1,6 @@
 package Sort;
 public class SelectionSort {
+	//Selection Sort는 minimum value를 저장할 수 있는 공간이 필요하다.
    public void sort(int data[]){
 	   int minValue;
 	   int length = data.length;
@@ -27,7 +28,6 @@ public class SelectionSort {
 	
 	
    public static void main(String args[]){
-	   //Selection Sort는 minimum value를 저장할 수 있는 공간이 필요하다.
 	   SelectionSort selection = new SelectionSort();
 	   int data[] = {4,6,1,3,5,2};
 	   
